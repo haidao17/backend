@@ -250,3 +250,7 @@ select {
 .upload-img-list li a{
 	color:#09c;
 }
+
+input, textarea {
+	direction: rtl;
+}
