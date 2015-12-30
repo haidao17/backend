@@ -335,15 +335,14 @@
         }
     }
     </script>
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="<?php echo G_MODULE_PATH; ?>/user/edit/<?php echo $info['uid']; ?>" target="workspace"><span>修改密码</span></a></li>
+    <ul id="dropdown1" class="dropdown-content left_date">
         <li><a title="安全退出" href="<?php echo G_MODULE_PATH; ?>/user/out"><span>安全退出</span></a></li>
         <li class="divider"></li>
         <li><a title="网站首页" href="<?php echo G_WEB_PATH; ?>" target="_blank"><span>网站首页</span></a></li>
     </ul>
     <nav>
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo" style="padding:0 10px;">欢迎进入DivTeam后台管理系统</a>
+            <a href="#!" class="brand-logo" style="padding:0 10px;">DivTeam后台管理系统</a>
             <ul class="right hide-on-med-and-down">
             <li class="current left_date"><a href="#" src="<?php echo G_MODULE_PATH; ?>/index/Tdefault" onClick="secBoard('nav',0,'setting',);">后台首页</a></li>
                 <!-- Dropdown Trigger -->
@@ -403,7 +402,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">place</i>站长运营</div>
+                        <div class="collapsible-header"><i class="material-icons">web</i>站长运营</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="yunying">
                                 <li class="collection-item"><a href="javascript:void(0);" src="<?php echo G_ADMIN_PATH; ?>/yunwei/websitemap">站点地图</a></li>
@@ -413,7 +412,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>管理员管理</div>
+                        <div class="collapsible-header"><i class="material-icons">person_pin</i>管理员管理</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="admin">
                                 <li class="collection-item"><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/user/lists">管理员管理</a></li>
@@ -423,7 +422,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>文章管理</div>
+                        <div class="collapsible-header"><i class="material-icons">picture_in_picture</i>文章管理</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="content">
 
@@ -443,7 +442,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>商品管理</div>
+                        <div class="collapsible-header"><i class="material-icons">shopping_basket</i>商品管理</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="shop">
                                 
@@ -466,7 +465,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>用户管理</div>
+                        <div class="collapsible-header"><i class="material-icons">recent_actors</i>用户管理</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="user">
                                 
@@ -484,7 +483,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>界面管理</div>
+                        <div class="collapsible-header"><i class="material-icons">aspect_ratio</i>界面管理</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="template">
                                 
@@ -498,7 +497,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>插件管理</div>
+                        <div class="collapsible-header"><i class="material-icons">library_add</i>插件管理</div>
                         <div class="collapsible-body">
                             <ul class="left_date collection" id="yunapp">
                                 
