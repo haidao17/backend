@@ -375,16 +375,15 @@ function addFavorite(url, title) {
 	<div class="navright">
 	<NAV id="nav" class="main-nav">
       <ul>
-              <li class="current"><a href="#" src="<?php echo G_MODULE_PATH; ?>/index/Tdefault" onClick="secBoard('nav',0,'setting','后台首页');">后台首页</a></li>
+            <li class="current left_date"><a href="#" src="<?php echo G_MODULE_PATH; ?>/index/Tdefault" onClick="secBoard('nav',0,'setting','后台首页');">后台首页</a></li>
 	        <li class="normal"><a href="#" onClick="secBoard('nav',1,'setting','系统设置');">系统设置</a></li>
             <li class="normal"><a href="#" onClick="secBoard('nav',2,'yunying','站长运营');">站长运营</a></li>
             <li class="normal"><a href="#" onClick="secBoard('nav',3,'admin','管理员管理');">管理员管理</a></li>
             <li class="normal"><a href="#" onClick="secBoard('nav',4,'content','文章管理');">文章管理</a></li>
             <li class="normal"><a href="#" onClick="secBoard('nav',5,'shop','商品管理');">商品管理</a></li>
-            <li class="normal"><a href="#" onClick="secBoard('nav',6,'jf_shop','积分全额购管理');">积分全额购管理</a></li>
-            <li class="normal"><a href="#" onClick="secBoard('nav',7,'user','用户管理');">用户管理</a></li>
-            <li class="normal"><a href="#" onClick="secBoard('nav',8,'template','界面管理');">界面管理</a></li>
-            <li class="normal"><a href="#" onClick="secBoard('nav',9,'yunapp','插件管理');">插件管理</a></li>
+            <li class="normal"><a href="#" onClick="secBoard('nav',6,'user','用户管理');">用户管理</a></li>
+            <li class="normal"><a href="#" onClick="secBoard('nav',7,'template','界面管理');">界面管理</a></li>
+            <li class="normal"><a href="#" onClick="secBoard('nav',8,'yunapp','插件管理');">插件管理</a></li>
 		</ul></NAV>
 		</div>
 	</div>
@@ -442,21 +441,6 @@ function addFavorite(url, title) {
         <li><a href="javascript:void(0);" src="<?php echo WEB_PATH; ?>/go/shaidan_admin/init">晒单查看</a></li>
          </ul>	
          
-         
-           <ul class="left_date" id="jf_shop">
-        <li class="head">积分商品管理</li>
-        <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/content/jf_goods_add">添加新商品</a></li>
-        <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/content/jf_goods_list">商品列表</a></li>
-        <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/category/lists/jf_goods">积分全额商品分类</a></li>
-        <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/jf_brand/lists">积分全额品牌管理</a></li>
-     
-        <li class="head">订单管理</li>
-       <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/jf_dingdan/lists">订单列表</a></li>
-        <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/jf_dingdan/select">订单查询</a></li>
-        <li><a href="javascript:void(0);" src="<?php echo G_MODULE_PATH; ?>/jf_dingdan/lists/notsend">未发货订单</a></li>
-        <li class="head">其他</li>
-        <li><a href="javascript:void(0);" src="<?php echo WEB_PATH; ?>/go/shaidan_admin/init">晒单查看</a></li>
-    </ul>
 
      <ul class="left_date" id="user">
      	<li class="head">用户管理</li>
