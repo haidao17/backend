@@ -495,16 +495,27 @@ function get_end_memory(){
 **/
 function _message($string=null,$defurl=null,$time=2,$config=null){
 
-	echo "
-<script src='data/plugin/style/global/js/jquery-1.8.3.min.js'></script>
-<script type='text/javascript' src='data/plugin/style/global/css/materialize/js/materialize.min.js'></script>
-<link type='text/css' rel='stylesheet' href='data/plugin/style/global/css/materialize/css/materialize.min.css' media='screen,projection' />
-<script type='text/javascript'>
-	console.log('adc');
-	Materialize.toast('$defurl', 4000);
-</script>
-<body></body>
-";
+	if(empty($defurl)){
+		//$defurl=G_HTTP_REFERER;
+		$defurl = ":js:";
+		//if(empty($defurl))$defurl=WEB_PATH;
+	}
+	if(defined("G_IN_ADMIN")){
+		if(empty($config)){
+			$config = array("titlebg"=>"#549bd9","title"=>"#fff");
+		}
+		$str_url_two=array("url"=>WEB_PATH.'/'.G_ADMIN_DIR,"text"=>"返回后台首页");
+	}else{
+		$str_url_two=array("url"=>G_WEB_PATH,"text"=>"返回首页");
+	}
+	$time=intval($time);if($time<2){$time=2;}
+
+
+	include templates("system","message");
+	
+
+
+	exit;
 }
 
 

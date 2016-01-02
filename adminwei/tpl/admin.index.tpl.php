@@ -342,8 +342,8 @@
         <li><a title="网站首页" href="<?php echo G_WEB_PATH; ?>" target="_blank"><span>网站首页</span></a></li>
     </ul>
     <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo" style="padding:0 10px;">DivTeam后台管理系统</a>
+        <div class="nav-wrapper teal darken-1">
+            <a href=""<?php echo G_WEB_PATH; ?>"" class="brand-logo" style="padding:0 10px;">DivTeam后台管理系统</a>
             <ul class="right hide-on-med-and-down">
             <li class="current left_date"><a href="#" src="<?php echo G_MODULE_PATH; ?>/index/Tdefault" onClick="secBoard('nav',0,'setting',);">后台首页</a></li>
                 <!-- Dropdown Trigger -->

@@ -44,7 +44,7 @@ $(function(){
 <body>
 
 	<nav>
-    	<div class="nav-wrapper" style="margin-top: -22px;">
+    	<div class="nav-wrapper teal darken-1" style="margin-top: -22px;">
      		<p class="brand-logo" style="margin:0 10px;">DivTeam</p>
     	</div>
 	</nav>
