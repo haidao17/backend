@@ -124,33 +124,33 @@
         });
     });
 
-    $(document).ready(function() {
-        var pagestyle = function() {
-            var iframe = $("#workspace");
-            var h = $(window).height() - iframe.offset().top;
-            var w = $(window).width() - iframe.offset().left;
-            if (h < 300) h = 300;
-            if (w < 973) w = 973;
-            iframe.height(h);
-            iframe.width(w);
-        }
-        pagestyle();
-        $(window).resize(pagestyle);
-        //turn location
-        if ($.cookie('now_location_act') != null) {
-            openItem($.cookie('now_location_op') + ',' + $.cookie('now_location_act') + ',' + $.cookie('now_location_nav'));
-        } else {
-            $('#mainMenu>ul').first().css('display', 'block');
-            //第一次进入后台时，默认定到欢迎界面
-            $('#item_welcome').addClass('selected');
-            $('#workspace').attr('src', '<?php echo G_ADMIN_PATH; ?>/index/Tdefault');
-        }
-        $('#iframe_refresh').click(function() {
-            var fr = document.frames ? document.frames("workspace") : document.getElementById("workspace").contentWindow;;
-            fr.location.reload();
-        });
+    // $(document).ready(function() {
+    //     var pagestyle = function() {
+    //         var iframe = $("#workspace");
+    //         var h = $(window).height() - iframe.offset().top;
+    //         var w = $(window).width() - iframe.offset().left;
+    //         if (h < 300) h = 300;
+    //         if (w < 973) w = 973;
+    //         iframe.height(h);
+    //         iframe.width(w);
+    //     }
+    //     pagestyle();
+    //     $(window).resize(pagestyle);
+    //     //turn location
+    //     if ($.cookie('now_location_act') != null) {
+    //         openItem($.cookie('now_location_op') + ',' + $.cookie('now_location_act') + ',' + $.cookie('now_location_nav'));
+    //     } else {
+    //         $('#mainMenu>ul').first().css('display', 'block');
+    //         //第一次进入后台时，默认定到欢迎界面
+    //         $('#item_welcome').addClass('selected');
+    //         $('#workspace').attr('src', '<?php echo G_ADMIN_PATH; ?>/index/Tdefault');
+    //     }
+    //     $('#iframe_refresh').click(function() {
+    //         var fr = document.frames ? document.frames("workspace") : document.getElementById("workspace").contentWindow;;
+    //         fr.location.reload();
+    //     });
 
-    });
+    // });
     //收藏夹
     function addBookmark(url, label) {
         if (document.all) {

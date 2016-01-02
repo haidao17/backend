@@ -170,7 +170,7 @@ function success(data){
 		// 	border : [5 , 0.5 , '#7298a6', true],
 		// 	dialog:{msg:obj.text}
 		// });
-		Materialize.toast(obj.text, 4000)
+		Materialize.toast(obj.text, 4000);
 		var checkcode=document.getElementById('checkcode');
 		var src=checkcode.src;
 			checkcode.src='';

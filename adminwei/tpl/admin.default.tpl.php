@@ -6,31 +6,13 @@
 <title>YYGCMS后台首页</title>
 <link rel="stylesheet" href="<?php echo G_GLOBAL_STYLE; ?>/global/css/global.css" type="text/css">
 <link rel="stylesheet" href="<?php echo G_GLOBAL_STYLE; ?>/global/css/style.css" type="text/css">
-<script type=text/javascript src="/data/plugin/style/images/jquery.js"></script>
-
-<script type=text/javascript 
-src="/data/plugin/style/images/jquery.validation.min.js"></script>
-
-<script type=text/javascript src="/data/plugin/style/images/admincp.js"></script>
-
-<script type=text/javascript src="/data/plugin/style/images/jquery.cookie.js"></script>
-
-<script type=text/javascript charset=utf-8 
-src="/data/plugin/style/images/common.js"></script>
-<link id=cssfile2 rel=stylesheet type=text/css 
-href="/data/plugin/style/images/skin_0.css"><link rel=stylesheet type=text/css 
-href="/data/plugin/style/images/perfect-scrollbar.min.css"><link rel=stylesheet 
-href="/data/plugin/style/images/font-awesome.min.css">
-<script type=text/javascript 
-src="/data/plugin/style/images/perfect-scrollbar.min.js"></script>
-
+<link id="cssfile2" rel="stylesheet" type="text/css" href="/data/plugin/style/images/skin_0.css">
 
 
 <meta name=GENERATOR content="MSHTML 8.00.6001.23636"></head>
 <body>
-<div id=append_parent></div>
-<div id=ajaxwaitid></div>
-<script type=text/javascript src="/data/plugin/style/images/jquery.mousewheel.js"></script>
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
 <style>
 	 body{ background-color:#fefeff; font:12px/1.5 arial,宋体b8b\4f53,sans-serif;}
 	.width30{ width:25%; font-size:12px; border-radius:5px 2px 20px 2px;  }
