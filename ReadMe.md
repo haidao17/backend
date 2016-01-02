@@ -4,4 +4,4 @@
 
 将css 覆盖至 data/plugin/style/global 中的同名文件夹
 
-将global.fun.php 覆盖至 common/ 中同名文件 
+将system.message.html 覆盖至 /tiansjthml 中同名文件 
