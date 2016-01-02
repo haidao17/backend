@@ -108,11 +108,12 @@
         }
         </script>
     </head>
-
+<style>
+    .left_date li a {
+        color:#757575;
+    }
+</style>
 <body>
-    <script type=text/javascript src="/data/plugin/style/images/jquery.js"></script>
-    <script type=text/javascript src="/data/plugin/style/images/jquery.validation.min.js"></script>
-    <script type=text/javascript src="/data/plugin/style/images/jquery.cookie.js"></script>
     <script type="text/javascript" src="<?php echo G_GLOBAL_STYLE; ?>/global/css/materialize/js/materialize.min.js"></script>
 
     <script>
