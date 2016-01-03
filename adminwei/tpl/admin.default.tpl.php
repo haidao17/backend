@@ -66,9 +66,8 @@
         <li><a href="<?php echo G_MODULE_PATH; ?>/setting/webcfg"><img src="<?php echo G_GLOBAL_STYLE; ?>/global/image/btn_60_60_s.png"><span>系统设置</span></a></li>
         <li><a href="<?php echo G_WEB_PATH; ?>"><img src="<?php echo G_GLOBAL_STYLE; ?>/global/image/btn_60_60_i.png"><span>网站首页</span></a></li>
     </ul>
-</div><div class="bk10"></div>
-<div class=page>
-<div class=fixed-empty></div>
+</div>
+<div class="bk10"></div>
 
 
 
@@ -151,7 +150,6 @@
 marqueen('roll').start(50,30);
 </script>
 
-<div style="overflow:hidden">
 <!------------>
     <div class="div-system width30">
         <div class="title">系统信息</div>
@@ -207,21 +205,6 @@ marqueen('roll').start(50,30);
         </ul>
     </div>
     
-    <div class="div-about width30">
-        <div class="title">关于我们</div>
-        <div class="bk10"></div>
-        <ul>
-        	<li><i>程序版本:</i><?php echo $versions['version']; ?><font color="#f60">【基础版】</font></li>
-			<li><i>更新时间:</i><?php echo $versions['release']; ?></li>
-            <li><i>程序提供:</i>区域科技</li>
-           
-            <li><i>官方微博:</i><a href="http://weibo.com/u/5239768948" target="_black" style="color:#0f0">关注官方微博</a></li>        
-        </ul>
-            <p style="color:#666; padding:20px;font: 12px/1.5 tahoma,arial,宋体b8b\4f53,sans-serif;">
-            	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一元云购商城源码系统是一款专为一元购类网站设计的CMS系统,
-                具有圈子,限时揭晓,晒单等功能。
-            </p> 
-    </div>
 <!------------>
 </div>
 </body>

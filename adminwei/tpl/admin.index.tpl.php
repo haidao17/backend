@@ -521,6 +521,7 @@
                         <br> All Rights Reserved.
                     </p>
                 </div>
+                
             </div>
             <!--left end-->
         </div>
@@ -528,7 +529,7 @@
             <!-- Teal page content  -->
 
   <nav>
-    <div class="nav-wrapper grey lighten-4">
+    <div class="nav-wrapper teal lighten-5">
       <ul class="R_label left hide-on-med-and-down" id="R_label" style="padding-left:10px; color: #616161">
         当前位置: 后台首页 >
       </ul>
